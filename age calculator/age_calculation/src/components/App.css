@@ -1,0 +1,77 @@
+.App {
+  padding: 5%;
+  text-align: center;
+  font-size: 26px;
+  font-weight: 500;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+  background-color: black;
+}
+
+h1{
+  color: red;
+}
+h3{
+  color: rgb(248, 248, 248);
+}
+h4{
+  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h4 .days{
+  color: red;
+}
+
+.con-grats {
+  width: 400px;
+  height: 300px;
+  
+}
+
+.fade {
+  animation-name: fade-in;
+  animation-duration: 3s;
+}
+
+.age-stats {
+  opacity: 100;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 100;
+  }
+}
+
+.button {
+  margin: 3%;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  background-color: red;
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+}
+.button:hover{
+  background-color: white;
+  color: red;
+}
+
+.control {
+  width: 325px;
+  height: 40px;
+  margin: 0 auto;
+  font-size: 20px;
+  float: none;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #aaacae;
+  border-color: red;
+  border-radius: 5px;
+}
+
